@@ -1,0 +1,27 @@
+version: "3"
+
+tasks:
+  setup:
+    desc: Install dependencies
+    cmds:
+      - pnpm i
+
+  dev:
+    desc: Start development server
+    cmds:
+      - pnpm run dev
+
+  build:
+    desc: Build production site
+    cmds:
+      - pnpm run build
+
+  preview:
+    desc: Preview production site
+    cmds:
+      - pnpm run preview
+
+  astro:
+    desc: Run astro command
+    cmds:
+      - pnpm run astro {{.CLI_ARGS}}

@@ -1,4 +1,5 @@
-export const SITE_TITLE = 'Atom - A Tailus template';
-export const SITE_DESCRIPTION = 'Modern free Tailwind CSS, Astro landing page template for startups | built with Tailus Themer';
-export const SITE_URL = 'https://atom.tailus.io';
-export const SITE_IMAGE = '/og.png';
+export const SITE_TITLE = "City Sprout IQ";
+export const SITE_DESCRIPTION =
+  "CitySproutIQ | Sustainable Urban Gardening, Simplified";
+export const SITE_URL = "https://citysproutiq.com";
+export const SITE_IMAGE = "/og.png";

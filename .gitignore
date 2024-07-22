@@ -2,6 +2,9 @@
 dist/
 .output/
 
+.idea
+.pre-commit-config.yaml
+
 # dependencies
 node_modules/
 
